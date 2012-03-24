@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <df name="IT-AKA" root=".">
+      <in>Extractor.cpp</in>
+      <in>Extractor.h</in>
+      <in>IT-AKA.cpp</in>
+      <in>LookAheadExtractor.cpp</in>
+      <in>LookAheadExtractor.h</in>
+      <in>LookAheadMAC.cpp</in>
+      <in>LookAheadMAC.h</in>
+      <in>TheoreticAKA.cpp</in>
+      <in>TheoreticAKA.h</in>
+      <in>bitstring.cpp</in>
+      <in>bitstring.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile-IT-AKA.mk</itemPath>
+      <itemPath>makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile-IT-AKA.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>4</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>$(MAKE) -f Makefile</buildCommand>
+          <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <ccTool>
+            <incDir>
+              <pElem>../../../../../sw/include</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+      </makefileType>
+      <item path="Extractor.cpp" ex="true" tool="1">
+      </item>
+      <item path="Extractor.h" ex="true" tool="3">
+      </item>
+      <item path="IT-AKA.cpp" ex="true" tool="1">
+      </item>
+      <item path="LookAheadExtractor.cpp" ex="true" tool="1">
+      </item>
+      <item path="LookAheadExtractor.h" ex="true" tool="3">
+      </item>
+      <item path="LookAheadMAC.cpp" ex="true" tool="1">
+      </item>
+      <item path="LookAheadMAC.h" ex="true" tool="3">
+      </item>
+      <item path="TheoreticAKA.cpp" ex="true" tool="1">
+      </item>
+      <item path="TheoreticAKA.h" ex="true" tool="3">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
